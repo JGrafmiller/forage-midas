@@ -22,8 +22,7 @@
   <artifactId>midas-core</artifactId>
   <version>1.0.0</version>
   <name>midas-core</name>
-  <description>Midas Core</description>
-  <url>https://spring.io/projects/spring-boot/midas-core</url>
+  <description>Midas Core</description>url>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -241,6 +240,57 @@
         <artifactId>activemq-amqp</artifactId>
         <version>5.18.4</version>
       </dependency>
+
+      <dependency>
+        <groupID>org.springframework.boot</groupId>
+        <artifactId>Spring-boot-starter-data-jpa</artifactId>
+        <version>3.2.5</version>\
+      </dependency>
+
+      <dependency>
+        <groupID>org.springframework.boot</groupId>
+        <artifactId>Spring-boot-starter-web-jpa</artifactId>
+        <version>3.2.5</version>\
+      </dependency>
+
+      <dependency>
+        <groupID>org.springframework.kafka</groupId>
+        <artifactId>Spring-kafka</artifactId>
+        <version>3.1.4</version>\
+      </dependency>
+
+
+      <dependency>
+        <groupID>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>2.2.224</version>\
+      </dependency>
+
+      
+       <dependency>
+        <groupID>org.springframework.boot</groupId>
+        <artifactId>Spring-boot-starter-test</artifactId>
+        <version>3.2.5</version>\
+        <scope>test</scope>
+      </dependency>
+
+       <dependency>
+        <groupID>org.springframework.kafka</groupId>
+        <artifactId>Spring-kafka-test</artifactId>
+        <version>3.1.4</version>\
+        <scope>test</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>kafka</artifactId>
+        <version>1.19.1</version>
+        <scope>test</scope>
+      </dependency>
+
+
+      
+
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>activemq-blueprint</artifactId>
