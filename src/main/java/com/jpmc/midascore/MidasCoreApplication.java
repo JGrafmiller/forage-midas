@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MidasCoreApplication {
 
     public static void main(String[] args) {
+        System.out.print("Starting Project...");
         SpringApplication.run(MidasCoreApplication.class, args);
+    
     }
 
 }
